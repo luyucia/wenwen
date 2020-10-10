@@ -1,0 +1,23 @@
+info:
+  contact: {}
+  license: {}
+paths:
+  /question/create:
+    post:
+      consumes:
+      - application/json
+      description: 创建问题
+      parameters:
+      - description: 标题
+        in: query
+        name: title
+        type: string
+      - description: 内容
+        in: query
+        name: content
+        type: string
+      produces:
+      - application/json
+      responses: {}
+      summary: 创建问题
+swagger: "2.0"
