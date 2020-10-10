@@ -10,5 +10,5 @@ func main() {
 
 	InitRouter(e)
 
-	e.Start(":8080")
+	e.Start(":80")
 }
